@@ -1,0 +1,553 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: pink;
+}
+
+header .logo {
+  display: flex;
+}
+header .logo img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+header .logo h1 {
+  color: rgb(198, 61, 84);
+  font-size: 22px;
+  margin: 12px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  height: 60px;
+  background-color: pink;
+}
+header span {
+  padding: 4px 0;
+}
+header span a {
+  color: rgb(198, 61, 84);
+  text-decoration: none;
+  font-size: 25px;
+}
+header ul {
+  display: flex;
+  width: 40%;
+  margin: 0 55px 11px 0;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(198, 61, 84);
+}
+
+section#açılış {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+section#açılış .opening {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  margin: 0 auto;
+}
+section#açılış .opening h1 {
+  background-color: white;
+  font-size: 35px;
+  width: 91%;
+  padding: 10px 0 0 12px;
+  border-radius: 20px 20px 0 0;
+  color: rgb(198, 61, 84);
+}
+section#açılış .opening {
+  margin-top: 18px;
+}
+section#açılış .opening img {
+  height: 400px;
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0 0 20px 20px;
+}
+
+section.mektub2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20.5vh;
+  width: 100%;
+  display: flex;
+}
+section.mektub2 .song {
+  margin: 0 auto;
+  width: 100%;
+}
+section.mektub2 .song iframe {
+  width: 100%;
+  height: 200px;
+}
+
+section#mektub1 {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section#mektub1 .mektub1-content {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  width: 80%;
+}
+section#mektub1 .mektub1-content h2 {
+  width: 60%;
+  font-size: 32px;
+  background-color: white;
+  padding: 50px 30px 25px 30px;
+  border-radius: 0 20px 20px 0;
+  color: rgb(198, 61, 84);
+  text-align: center;
+}
+section#mektub1 .mektub1-content img {
+  width: 45%;
+  height: 430px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 0 0 20px;
+}
+
+section#mektub22 {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  display: flex;
+  align-items: center;
+}
+section#mektub22 .mektub22-content {
+  display: flex;
+  margin: 0 auto;
+  width: 75%;
+}
+section#mektub22 .mektub22-content h2 {
+  width: 60%;
+  font-size: 32px;
+  background-color: white;
+  padding: 50px 30px 25px 30px;
+  border-radius: 20px 0 0 20px;
+  color: rgb(198, 61, 84);
+  text-align: center;
+}
+section#mektub22 .mektub22-content img {
+  width: 65%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0 20px 20px 0;
+}
+
+section#mektubCAT {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+  width: 100%;
+  display: flex;
+}
+section#mektubCAT .imgg {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+section#mektubCAT .imgg img {
+  height: 390px;
+  width: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+section#mektub3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  align-items: center;
+  padding: 55px 0 0 0;
+}
+section#mektub3 .title {
+  margin: 0 auto 0 auto;
+  background-color: white;
+  width: 28%;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+section#mektub3 .title h2 {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  color: rgb(198, 61, 84);
+}
+section#mektub3 .list ul li {
+  color: rgb(198, 61, 84);
+  list-style: none;
+  background-color: white;
+  font-size: 30px;
+  display: flex;
+  margin: 20px 0 20px 0;
+  padding: 26px 18px 26px 18px;
+  border-radius: 20px;
+  width: 65%;
+  margin: 20px auto;
+}
+section#mektub3 .mektub3-content {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+}
+section#mektub3 .mektub3-content h2 {
+  width: 60%;
+  font-size: 32px;
+  background-color: white;
+  padding: 40px 30px 0 30px;
+  border-radius: 0 20px 20px 0;
+  color: rgb(198, 61, 84);
+  text-align: center;
+}
+section#mektub3 .mektub3-content img {
+  width: 45%;
+  height: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 0 0 20px;
+}
+
+section#mektub4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 198vh;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  color: #333;
+}
+section#mektub4 .nubss {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+section#mektub4 .nubss .nubs {
+  width: 85%;
+  margin: 0 auto;
+}
+section#mektub4 .nubss .nubs img {
+  width: 100%;
+  height: 320px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+section#mektub4 .nubss .nubs img:hover {
+  transform: translateY(-17px);
+}
+section#mektub4 h1 {
+  font-size: 2.5rem;
+}
+section#mektub4 .container {
+  max-width: 845px;
+  margin: auto;
+  padding: 20px;
+}
+section#mektub4 .container .card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+section#mektub4 .container .card input {
+  padding: 10px 20px;
+  border-color: #ffb6d5;
+  border-radius: 25px;
+  border: 2px solid #ffb6d5;
+  outline: none;
+  font-size: 17px;
+}
+section#mektub4 .container .card h2 {
+  margin-bottom: 5px;
+}
+section#mektub4 .container .card p {
+  margin-bottom: 5px;
+}
+section#mektub4 .container .card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  background: #f8c8dc;
+  transition: 0.3s;
+}
+section#mektub4 .container .card button:hover {
+  transform: scale(1.05);
+  background: #ffb6d5;
+}
+section#mektub4 .container .card .result {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+section#mektub5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url(rose.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+section#mektub5 .slide1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+section#mektub5 .slide1 .timer {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+section#mektub5 .slide1 .timer h2 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 45px;
+}
+section#mektub5 .slide1 .slideimg img {
+  width: 420px;
+  height: 420px;
+  border-radius: 20px;
+}
+section#mektub5 .swiper-button-next,
+section#mektub5 .swiper-button-prev {
+  color: rgb(198, 61, 84); /* arrows */
+}
+section#mektub5 .swiper-pagination-progressbar-fill {
+  background: rgb(198, 61, 84); /* progress line */
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  header .logo {
+    margin-bottom: 10px;
+  }
+  header .logo img {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+  }
+  header .logo h1 {
+    font-size: 18px;
+    margin: 10px;
+  }
+  header ul {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    gap: 9px;
+  }
+  header ul li a {
+    font-size: 14px;
+  }
+  header span {
+    display: none;
+  }
+  section#açılış .opening {
+    width: 90%;
+    max-width: 450px;
+  }
+  section#açılış .opening h1 {
+    font-size: 25px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section#açılış .opening img {
+    width: 100%;
+    height: auto;
+  }
+  section.mektub2 {
+    height: 12.25vh;
+  }
+  section.mektub2 .song iframe {
+    height: 100px;
+  }
+  section#mektub1 .mektub1-content {
+    flex-direction: column;
+    width: 90%;
+  }
+  section#mektub1 .mektub1-content h2 {
+    width: 100%;
+    font-size: 24px;
+    padding: 30px 20px 15px 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  section#mektub1 .mektub1-content img {
+    width: 100%;
+    height: 330px;
+    border-radius: 20px 20px 0 0;
+  }
+  section#mektub22 .mektub22-content {
+    flex-direction: column;
+    width: 90%;
+  }
+  section#mektub22 .mektub22-content h2 {
+    width: 100%;
+    font-size: 24px;
+    padding: 30px 20px 15px 20px;
+    border-radius: 20px 20px 0 0;
+  }
+  section#mektub22 .mektub22-content img {
+    width: 100%;
+    height: 300px;
+    border-radius: 0 0 20px 20px;
+  }
+  /* Add spacing between sections on smaller screens (uses padding so background stays visible) */
+  section#mektub1,
+  section#mektub22 {
+    padding-bottom: 30px;
+  }
+  section#mektubCAT {
+    height: 40vh;
+  }
+  section#mektubCAT .imgg img {
+    height: 250px;
+    width: 300px;
+  }
+  section#mektub3 {
+    height: 150vh;
+  }
+  section#mektub3 .title {
+    width: 80%;
+  }
+  section#mektub3 .title h2 {
+    font-size: 20px;
+    padding: 8px 15px;
+  }
+  section#mektub3 .list ul li {
+    font-size: 20px;
+    width: 90%;
+    padding: 15px 12px;
+  }
+  section#mektub3 .mektub3-content {
+    flex-direction: column;
+    width: 90%;
+  }
+  section#mektub3 .mektub3-content h2 {
+    width: 100%;
+    font-size: 24px;
+    padding: 20px 20px 0 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  section#mektub3 .mektub3-content img {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+  section#mektub4 {
+    height: 230vh;
+  }
+  section#mektub4 .nubss {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section#mektub4 .nubss .nubs {
+    width: 85%;
+    margin: 0 auto;
+  }
+  section#mektub4 .nubss .nubs img {
+    width: 90%;
+    height: 250px;
+  }
+  section#mektub4 h1 {
+    font-size: 2rem;
+  }
+  section#mektub4 .container {
+    padding: 10px;
+  }
+  section#mektub4 .container .card {
+    padding: 15px;
+  }
+  section#mektub4 .container .card input {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  section#mektub4 .container .card button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  section#mektub5 {
+    height: 80vh;
+  }
+  section#mektub5 .slide1 {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 0 20px;
+  }
+  section#mektub5 .slide1 .timer {
+    font-size: 30px;
+  }
+  section#mektub5 .slide1 .timer h2 {
+    width: 100%;
+    font-size: 20px;
+  }
+  section#mektub5 .slide1 .timer span {
+    font-size: 20px;
+  }
+  section#mektub5 .slide1 .slideimg img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (min-width: 769px) {
+  section#mektub1 .mektub1-content {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=style.css.map */

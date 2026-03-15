@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: pink;
+}
+$primary-pink: #f8c8dc;
+$hover-pink: #ffb6d5;
+$lavender: #e6e6fa;
+$text-color: #333;
+$card-radius: 20px;
+$transition-speed: 0.3s;
+header{
+    .logo{
+        display: flex;
+        img{
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-left: 50px;
+        }
+        h1{
+            color: rgb(198, 61, 84);
+            font-size: 22px;
+            margin: 12px;
+        }
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 60px;
+    background-color: pink;
+    span{
+        padding: 4px 0;
+        a{
+        color: rgb(198, 61, 84);
+        text-decoration: none;
+        font-size: 25px;
+        }
+    }
+    ul{
+        display: flex;
+        width: 40%;
+        margin: 0 55px 11px 0;
+        justify-content: space-between;
+        padding-top: 10px;;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-size: 25px;
+                color: rgb(198, 61, 84);
+            }
+        }
+    }
+}
+section#açılış{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    .opening{
+            align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 29%;
+        // background-color: white;
+        margin: 0 auto;
+        h1{
+            background-color: white;
+            font-size: 35px;
+            width: 91%;
+            padding: 10px 0 0 12px;
+            border-radius: 20px 20px 0 0;
+            color: rgb(198, 61, 84);
+        }
+                margin-top: 18px;
+        img{
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+            border-radius: 0 0 20px 20px;
+        }
+
+    }
+}
+
+section.mektub2{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20.5vh;
+    width: 100%;
+    display: flex;
+    
+    .song{
+        margin: 0 auto;
+        width: 100%;
+        iframe{
+            width: 100%;
+            height: 200px;
+        }
+       
+    }    
+}
+section#mektub1{
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .mektub1-content{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 auto;
+        width: 80%;
+        h2{
+            width: 60%;
+            font-size: 32px;
+            background-color: white;
+            padding: 50px 30px 25px 30px;
+            border-radius: 0 20px 20px 0;
+            color: rgb(198, 61, 84);
+            text-align: center;
+            
+        }
+        img{
+            width: 45%;
+            height: 430px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 20px 0 0 20px;
+        }
+    }
+}
+section#mektub22{
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    display: flex;
+    align-items: center;
+    .mektub22-content{
+        display: flex;
+        margin: 0 auto;
+        width: 75%;
+        h2{
+            width: 60%;
+            font-size: 32px;
+            background-color: white;
+            padding: 50px 30px 25px 30px;
+            border-radius: 20px 0 0 20px;
+            color: rgb(198, 61, 84);
+            text-align: center;
+            
+        }
+        img{
+            width: 65%;
+            height: 500px;
+            object-fit: cover;
+
+            border-radius:  0 20px 20px 0;
+            
+        }
+    }
+}
+section#mektubCAT{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    .imgg{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+
+        img{
+            height: 390px;
+            width: 450px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    }
+    
+}    
+section#mektub3{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    align-items: center;
+    padding: 55px 0 0 0;
+    .title{
+        margin: 0 auto 0 auto;
+        background-color: white;
+        width: 28%;
+        text-transform: uppercase;
+        border-radius: 20px;
+        h2{
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            color: rgb(198, 61, 84);
+        }
+    }
+    .list{
+        ul{
+            li{
+                color: rgb(198, 61, 84);
+                list-style: none;
+                background-color: white;
+                font-size: 30px;
+                display: flex;
+                margin: 20px 0 20px 0;
+                padding: 26px 18px 26px 18px;
+                border-radius: 20px;
+                width: 65%;
+                margin: 20px auto;
+            }
+        }
+    }
+    .mektub3-content{
+        display: flex;
+        margin: 0 auto;
+        width: 60%;
+        h2{
+            width: 60%;
+            font-size: 32px;
+            background-color: white;
+            padding: 40px 30px 0 30px;
+            border-radius: 0 20px 20px 0;
+            color: rgb(198, 61, 84);
+            text-align: center;
+            
+        }
+        img{
+            width: 45%;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 20px 0 0 20px;
+        }
+    }
+}
+section#mektub4{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 198vh;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    color: $text-color;
+    .nubss{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap:18px;
+        
+        .nubs{
+            width: 85%;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                height: 320px;
+                border-radius: 20px;
+                transition: $transition-speed;
+                &:hover{
+                    transform: translateY(-17px);
+                }
+            }
+        }
+    }    
+    h1 {
+    font-size: 2.5rem;
+    }
+    .container {
+        max-width: 845px;
+        margin: auto;
+        padding: 20px;
+
+    .card {
+        background: white;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: $card-radius;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    input{
+     padding: 10px 20px;
+      border-color: $hover-pink;
+      border-radius: 25px;
+      border: 2px solid $hover-pink;
+      outline: none;
+      font-size: 17px;
+    }
+
+    h2 {
+      margin-bottom: 5px;
+    }
+    p{
+        margin-bottom: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      background: $primary-pink;
+      transition: $transition-speed;
+
+      &:hover {
+        transform: scale(1.05);
+        background: $hover-pink;
+      }
+    }
+
+    .result {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  }
+}
+}
+section#mektub5{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.17), rgb(0, 0, 0, 0.17)), url(rose.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .slide1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        // margin: 0 170px 0 0 ;
+        .timer{
+        font-size:40px;
+        font-weight:bold;
+        letter-spacing:2px;
+        color: rgb(255, 255, 255);
+        h2{
+            width: 90%;
+            margin: 0 auto;
+            font-size: 45px;
+        }
+        }
+        .slideimg{
+            img{
+                width: 420px;
+                height: 420px;
+                border-radius: 20px;
+            }
+        }
+    }
+    .swiper-button-next,
+.swiper-button-prev {
+  color: rgb(198, 61, 84); /* arrows */
+}
+
+.swiper-pagination-progressbar-fill {
+  background: rgb(198, 61, 84); /* progress line */
+
+}
+}
+
+// Mobile responsiveness
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        .logo {
+            margin-bottom: 10px;
+            img {
+                height: 40px;
+                width: 40px;
+                margin-left: 20px;
+            }
+            h1 {
+                font-size: 18px;
+                margin: 10px;
+            }
+        }
+        ul {
+            width: 50%;
+            margin: 0 auto;
+            padding: 0;
+            justify-content: center;
+            gap: 9px;
+            li a {
+                font-size: 14px;
+            }
+        }
+        span {
+            display: none; // Hide the span on mobile if not needed
+        }
+    }
+
+    section#açılış {
+        .opening {
+            width: 90%;
+            max-width: 450px;
+            h1 {
+                font-size: 25px;
+                width: 100%;
+                padding: 10px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    section.mektub2 {
+        height: 12.25vh;
+        .song iframe {
+            height: 100px;
+        }
+    }
+
+    section#mektub1 {
+        .mektub1-content {
+            flex-direction: column;
+            width: 90%;
+            h2 {
+                width: 100%;
+                font-size: 24px;
+                padding: 30px 20px 15px 20px;
+                border-radius: 0 0 20px 20px ;
+            }
+            img {
+                width: 100%;
+                height: 330px;
+                border-radius: 20px 20px 0 0;
+            }
+        }
+    }
+
+    section#mektub22 {
+        .mektub22-content {
+            flex-direction: column;
+            width: 90%;
+            h2 {
+                width: 100%;
+                font-size: 24px;
+                padding: 30px 20px 15px 20px;
+                border-radius: 20px 20px 0 0;
+            }
+            img {
+                width: 100%;
+                height: 300px;
+                border-radius: 0 0 20px 20px;
+            }
+        }
+    }
+
+    /* Add spacing between sections on smaller screens (uses padding so background stays visible) */
+    section#mektub1,
+    section#mektub22 {
+        padding-bottom: 30px;
+    }
+
+    section#mektubCAT {
+        height: 40vh;
+        .imgg img {
+            height: 250px;
+            width: 300px;
+        }
+    }
+
+    section#mektub3 {
+        height: 150vh;
+        .title {
+            width: 80%;
+            h2 {
+                font-size: 20px;
+                padding: 8px 15px;
+            }
+        }
+        .list ul li {
+            font-size: 20px;
+            width: 90%;
+            padding: 15px 12px;
+        }
+        .mektub3-content {
+            flex-direction: column;
+            width: 90%;
+            h2 {
+                width: 100%;
+                font-size: 24px;
+                padding: 20px 20px 0 20px;
+                border-radius: 0 0 20px 20px;
+            }
+            img {
+                width: 100%;
+                height: 300px;
+                border-radius: 20px 20px 0 0;
+                
+            }
+        }
+    }
+
+    section#mektub4 {
+        height: 230vh;
+        .nubss {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
+            .nubs {
+                width: 85%;
+                margin: 0 auto;
+                img {
+                    width: 90%;
+                    height: 250px;
+                }
+            }
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        .container {
+            padding: 10px;
+            .card {
+                padding: 15px;
+                input {
+                    font-size: 14px;
+                    padding: 8px 15px;
+                }
+                button {
+                    font-size: 0.9rem;
+                    padding: 8px 15px;
+                }
+            }
+        }
+    }
+
+    section#mektub5{
+        height: 80vh;
+        
+        .slide1 {
+            flex-direction: column;
+            width: 100%;
+            margin: 0 0 0 20px;
+            .timer {
+                font-size: 30px;
+                h2{
+                    width: 100%;
+                    font-size: 20px;
+                }
+                span{
+                    font-size: 20px;
+                }
+            }
+            .slideimg img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+// Desktop responsiveness
+@media (min-width: 769px) {
+    section#mektub1 {
+        .mektub1-content {
+            flex-direction: row;
+        }
+    }
+}
+
