@@ -269,7 +269,7 @@ section#mektub4 .nubss {
   gap: 18px;
 }
 section#mektub4 .nubss .nubs {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
 }
 section#mektub4 .nubss .nubs img {
@@ -500,11 +500,11 @@ section#mektub5 .swiper-pagination-progressbar-fill {
     grid-template-columns: repeat(2, 1fr);
   }
   section#mektub4 .nubss .nubs {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
   }
   section#mektub4 .nubss .nubs img {
-    width: 90%;
+    width: 100%;
     height: 250px;
   }
   section#mektub4 h1 {
